@@ -1,35 +1,15 @@
-// Importations font-familly
 @font-face {
-  font-family: 'Allura-Regular';
+  font-family: "Allura-Regular";
   src: url(../fonts/Allura-Regular.ttf);
 }
-
 @font-face {
   font-family: "Poppins-Medium";
   src: url(../fonts/Poppins-Medium.ttf);
 }
-
 @font-face {
   font-family: "Roboto-Light";
   src: url(../fonts/Roboto-Light.ttf);
 }
-
-// Variables
-$font1: Allura, serif;
-$font2: Poppins, serif;
-$font3: Roboto, serif;
-$color1: #eeeeee;
-$color2: #a87345;
-$color3: #0e0e0e;
-$color4: #21201e;
-
-@mixin title {
-  font-family: $font2;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-// Initialisation CSS
 * {
   margin: 0;
   padding: 0;
@@ -39,15 +19,15 @@ $color4: #21201e;
   scroll-behavior: smooth;
 }
 
-h1, h2, h4, input[type="submit"], label {
+h1, h2, h4, input[type=submit], label {
   text-transform: uppercase;
 }
 
 h3 {
-  color: $color2;
+  color: #a87345;
 }
 
 a, a:visited {
   text-decoration: none;
-  color: $color1;
+  color: #eeeeee;
 }
