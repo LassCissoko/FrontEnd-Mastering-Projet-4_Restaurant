@@ -1,0 +1,16 @@
+header {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .nav-links {
+  width: 80%;
+}
+header nav .nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

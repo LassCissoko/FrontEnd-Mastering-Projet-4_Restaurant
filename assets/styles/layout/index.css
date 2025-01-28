@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Allura-Regular";
-  src: url(../fonts/Allura-Regular.ttf);
+  font-family: "Allura";
+  src: url(/assets/fonts/Allura-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Poppins-Medium";
-  src: url(../fonts/Poppins-Medium.ttf);
+  src: url(/assets/fonts/Poppins-Medium.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Roboto-Light";
-  src: url(../fonts/Roboto-Light.ttf);
+  font-family: "Roboto";
+  src: url(/assets/fonts/Roboto-Light.ttf) format("truetype");
 }
 * {
   margin: 0;
@@ -31,4 +31,56 @@ h3 {
 a, a:visited {
   text-decoration: none;
   color: #eeeeee;
+}
+
+header {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+}
+header nav .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+header nav .nav-logo h3 {
+  font-family: "Allura", cursive, sans-serif;
+  font-size: 3rem;
+}
+header nav .nav-links {
+  width: 70%;
+}
+header nav .nav-links ul {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+header nav .nav-socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header nav .nav-socials ul li {
+  padding: 10px;
 }/*# sourceMappingURL=index.css.map */

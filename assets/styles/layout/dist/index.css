@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Allura";
-  src: url(/assets/fonts/Allura-Regular.ttf) format("truetype");
+  font-family: "Allura-Regular";
+  src: url(../fonts/Allura-Regular.ttf);
 }
 @font-face {
   font-family: "Poppins-Medium";
-  src: url(/assets/fonts/Poppins-Medium.ttf) format("truetype");
+  src: url(../fonts/Poppins-Medium.ttf);
 }
 @font-face {
-  font-family: "Roboto";
-  src: url(/assets/fonts/Roboto-Light.ttf) format("truetype");
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.ttf);
 }
 * {
   margin: 0;
@@ -30,4 +30,13 @@ h3 {
 a, a:visited {
   text-decoration: none;
   color: #eeeeee;
+}
+
+header {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
