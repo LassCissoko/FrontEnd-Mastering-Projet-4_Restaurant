@@ -28,6 +28,12 @@ $color4: #21201e;
   text-transform: uppercase;
 }
 
+@mixin centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // Initialisation CSS
 * {
   margin: 0;

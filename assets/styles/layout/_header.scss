@@ -1,13 +1,16 @@
 header {
   background: url(/assets/img/bg-slider-06.jpg) center / cover;
   height: 100vh;
+  color: $color1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 
   nav {
     
     .nav-container {
       display: flex;
       justify-content: space-between;
-      align-content: center;
       align-items: center;
       width: 80%;
       margin: 0 auto;
@@ -24,7 +27,7 @@ header {
       
       ul {
         font-family: $font2;
-        font-size: 0.8rem;
+        font-size: 1rem;
         @include title();
         display: flex;
         justify-content: space-between;
@@ -34,11 +37,41 @@ header {
 
     .nav-socials ul {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
 
       li {
         padding: 10px;
       }
     }
   }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+
+    h2 {
+      color: $color2;
+      text-transform: none;
+      font-family: $font1;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 5rem;
+      margin: -40px 0;
+    }
+    h1, p {
+      text-transform: uppercase;
+      font-family: $font2;
+      letter-spacing: 3px;
+   }
+
+  img {
+  margin: 50px auto 40px;
+  }
+ }
 }
+
