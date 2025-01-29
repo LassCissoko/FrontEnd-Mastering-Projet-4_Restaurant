@@ -7,7 +7,6 @@ header {
   flex-direction: column;
 
   nav {
-    
     .nav-container {
       display: flex;
       justify-content: space-between;
@@ -37,7 +36,6 @@ header {
 
     .nav-socials ul {
       display: flex;
-      // justify-content: space-between;
 
       li {
         padding: 10px;
@@ -51,22 +49,27 @@ header {
     justify-content: center;
     flex-grow: 1;
 
-    h2 {
+    h3 {
       color: $color2;
       text-transform: none;
-      font-family: $font1;
-      font-size: 3rem;
+      font-size: 3.5rem;
       font-weight: 500;
     }
 
-    h1 {
-      font-size: 5rem;
-      margin: -40px 0;
-    }
     h1, p {
       text-transform: uppercase;
       font-family: $font2;
-      letter-spacing: 3px;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      margin: -40px 0;
+      letter-spacing: 10px;
+    }
+
+   p {
+    letter-spacing: 4px;
+    font-size: 1rem;
    }
 
   img {
@@ -74,4 +77,3 @@ header {
   }
  }
 }
-

@@ -21,7 +21,8 @@ $font3: 'Roboto', sans-serif;
 $color1: #eeeeee;
 $color2: #a87345;
 $color3: #0e0e0e;
-$color4: #21201e;
+$color4: #bcbcbc;
+$color5: #21201e;
 
 @mixin title {
   letter-spacing: 2px;
@@ -50,6 +51,23 @@ h1, h2, h4, input[type="submit"], label {
 
 h3 {
   color: $color2;
+  font-family: $font1;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: $font2;
+  color: $color3;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: $font3;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $color5;
+  letter-spacing: 1px;
 }
 
 a, a:visited {

@@ -25,6 +25,23 @@ h1, h2, h4, input[type=submit], label {
 
 h3 {
   color: #a87345;
+  font-family: "Allura", cursive, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poppins-Medium", sans-serif;
+  color: #0e0e0e;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #21201e;
+  letter-spacing: 1px;
 }
 
 a, a:visited {
