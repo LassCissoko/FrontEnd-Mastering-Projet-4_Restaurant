@@ -227,11 +227,12 @@ header .header-content img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 .section2 .section2-top .menu-list li {
   position: relative;
+  font-size: 1.1rem;
   margin: 50px 0;
 }
 .section2 .section2-top .menu-list li::before {
@@ -252,8 +253,12 @@ header .header-content img {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   background: #eeeeee;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
 }
 .section2 .section2-bottom .menu-content {
   display: -webkit-box;
