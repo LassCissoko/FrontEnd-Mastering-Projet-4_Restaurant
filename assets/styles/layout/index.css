@@ -77,6 +77,9 @@ header nav .nav-container {
   margin: 0 auto;
   padding-top: 40px;
 }
+header nav li:hover {
+  color: #a87345;
+}
 header nav .nav-logo h3 {
   font-family: "Allura", cursive, sans-serif;
   font-size: 3rem;
@@ -97,6 +100,18 @@ header nav .nav-links ul {
           justify-content: space-between;
   width: 100%;
 }
+header nav .nav-links li {
+  position: relative;
+}
+header nav .nav-links li:hover:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #a87345;
+}
 header nav .nav-socials ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +119,11 @@ header nav .nav-socials ul {
 }
 header nav .nav-socials ul li {
   padding: 10px;
+}
+header nav .nav-socials ul li:hover {
+  scale: 1.3;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 header .header-content {
   display: -webkit-box;
