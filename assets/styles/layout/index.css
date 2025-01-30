@@ -150,6 +150,11 @@ header .header-content img {
 }
 .section1 .section1-left {
   background: #eeeeee;
+  padding: 20px;
+}
+.section1 .section1-left div:first-child {
+  border: dashed 1px #a87345;
+  padding: 50px;
 }
 .section1 .section1-left h3 {
   margin: -20px 0;
@@ -160,7 +165,7 @@ header .header-content img {
 }
 .section1 .section1-left .text {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #21201e;
 }
 .section1 .section1-left .avatar {
@@ -173,4 +178,7 @@ header .header-content img {
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #bcbcbc;
+}
+.section1 .section1-right {
+  background: url(/assets/img/store-01.jpg) center/cover;
 }/*# sourceMappingURL=index.css.map */

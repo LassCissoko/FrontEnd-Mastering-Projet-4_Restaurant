@@ -5,6 +5,12 @@
 
   .section1-left {
     background: $color1;
+    padding: 20px;
+
+    div:first-child {
+      border: dashed 1px $color2;
+      padding: 50px;
+    }
 
    h3 {
     margin: -20px 0;
@@ -17,7 +23,7 @@
 
     .text {
       font-family: $font3;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: $color5;
     }
 
@@ -33,6 +39,9 @@
       text-transform: uppercase;
       color: $color4;
     }
+  }
 
+  .section1-right {
+    background: url(/assets/img/store-01.jpg) center/cover;
   }
 }
