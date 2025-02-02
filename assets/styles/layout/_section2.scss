@@ -1,18 +1,22 @@
 .section2 {
-
+  background: $color5;
+  background-image: url(/assets/img/bg-menu-01.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
   .section2-container {
-    display: flex;
     width: 80vw;
     max-width: 950px;
     margin: 80px auto 150px;
   }
-  .section2-top {
-    background: $color5;
-    text-align: center;
-    height: 500px;
 
-    h3 {
-      padding: 60px 0;
+  .section2-top {
+
+    img {
+      margin-top: 40px;
     }
 
     .menu-list  {
@@ -20,7 +24,6 @@
       color: $color1;
       display: flex;
       justify-content: space-around;
-      width: 50%;
       margin: 0 auto;
       
       li {
@@ -34,7 +37,7 @@
           width: 100%;
           height: 1px;
           left: 0;
-          bottom:  -15px;
+          bottom: -15px;
           background: $color1;
         }
       }
@@ -42,15 +45,19 @@
   }
 
   .section2-bottom {
-    column-gap: 40px;
-    .menu-container {
-      display: grid;
-      grid-template-columns: repeat(2, 50%);
-      background: $color1;
-      width: 100%;
-      margin: 0 auto;
-      padding: 20px;
-      column-gap: 15px;
+    column-gap: 15px;
+    background: $color1;
+    padding: 20px;
+    border-top: solid 4px $color2;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     }
 
     .menu-content {
@@ -58,9 +65,12 @@
       align-items: center;
       padding: 40px 0;
       width: 100%;
-      border-bottom: dotted 1px $color2;
-
+      border-bottom: dotted 2px $color4;
       
+    .menu-content {
+      display: flex;
+      width: 90vw;
+    } 
 
       img {
         border-radius: 50px;
@@ -70,7 +80,6 @@
         width: 100%;
         margin: 0 0 0 10px;
         text-align: left;
-
         
         h4 {
           font-family: $font3;
@@ -89,6 +98,4 @@
         margin: auto 15px;
       }
     }
-
   }
-}
