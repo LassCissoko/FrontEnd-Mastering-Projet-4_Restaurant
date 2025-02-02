@@ -82,14 +82,21 @@ header nav li:hover {
 }
 header nav .nav-logo h3 {
   font-family: "Allura", cursive, sans-serif;
+  color: #eeeeee;
+  font-weight: bold;
   font-size: 3rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header nav .nav-logo h3:hover {
+  color: #a87345;
 }
 header nav .nav-links {
   width: 70%;
 }
 header nav .nav-links ul {
-  font-family: "Poppins-Medium", sans-serif;
-  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: -webkit-box;
@@ -102,15 +109,19 @@ header nav .nav-links ul {
 }
 header nav .nav-links li {
   position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 header nav .nav-links li:hover:before {
   position: absolute;
   content: "";
   width: 100%;
-  height: 2px;
+  height: 1.2px;
   left: 0;
   bottom: 0;
   background: #a87345;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 header nav .nav-socials ul {
   display: -webkit-box;
@@ -119,11 +130,11 @@ header nav .nav-socials ul {
 }
 header nav .nav-socials ul li {
   padding: 10px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 header nav .nav-socials ul li:hover {
   scale: 1.3;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
 }
 header .header-content {
   display: -webkit-box;
@@ -308,4 +319,93 @@ header .header-content img {
   font-family: "Poppins-Medium", sans-serif;
   color: #a87345;
   margin: auto 15px;
+}
+
+.section3 {
+  background: #21201e;
+  text-align: center;
+  padding: 150px;
+}
+.section3 .section3-container {
+  display: grid;
+  grid-template-columns: repeat(2, 30% 70%);
+  margin: 0 auto;
+}
+.section3 .section3-container h2 {
+  line-height: 0;
+  margin-bottom: 50px;
+}
+.section3 .section3-container .section3-left {
+  background: #0e0e0e;
+  padding: 20px;
+}
+.section3 .section3-container .section3-left .border {
+  padding: 20px;
+  border: dashed 1px #bcbcbc;
+}
+.section3 .section3-container .section3-left h2, .section3 .section3-container .section3-left p {
+  color: #bcbcbc;
+}
+.section3 .section3-container .section3-left p {
+  font-family: "Roboto", sans-serif;
+  color: #eeeeee;
+}
+.section3 .section3-container .section3-left .infos {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 1.2rem;
+  color: #a87345;
+  text-transform: uppercase;
+  margin: 30px;
+}
+.section3 .section3-container .section3-right {
+  background: #eeeeee;
+}
+.section3 .section3-container .section3-right h3 {
+  margin-top: 70px;
+}
+.section3 .section3-container .section3-right img {
+  margin-bottom: 50px;
+}
+.section3 .section3-container .section3-right .form {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.section3 .section3-container .section3-right .form .selection, .section3 .section3-container .section3-right .form .text {
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section3 .section3-container .section3-right .form .selection input, .section3 .section3-container .section3-right .form .selection select, .section3 .section3-container .section3-right .form .selection date, .section3 .section3-container .section3-right .form .text input, .section3 .section3-container .section3-right .form .text select, .section3 .section3-container .section3-right .form .text date {
+  width: 50%;
+  border-bottom: solid 1px #bcbcbc;
+  margin-bottom: 30px;
+}
+.section3 .section3-container .section3-right .form input, .section3 .section3-container .section3-right .form select {
+  outline: none;
+  background: #eeeeee;
+  border: none;
+  padding: 5px;
+}
+.section3 .section3-container .section3-right .form input[type=submit] {
+  background: #0e0e0e;
+  color: #eeeeee;
+  width: 150px;
+  padding: 13px;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-weight: bold;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.section3 .section3-container .section3-right .form input[type=submit]:hover {
+  background: #eeeeee;
+  color: #0e0e0e;
+  border: solid 1px #0e0e0e;
+  scale: 1.1;
 }/*# sourceMappingURL=index.css.map */
