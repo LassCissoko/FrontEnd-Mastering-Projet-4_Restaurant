@@ -584,4 +584,66 @@ header .header-content img {
 .section5 .container span {
   color: #a87345;
   font-size: 1rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 200px;
+}
+footer .footer-left, footer .footer-right {
+  padding: 80px 40px;
+}
+footer .footer-left {
+  background: #0e0e0e;
+  text-align: left;
+}
+footer .footer-left p {
+  color: #bcbcbc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+}
+footer .footer-right {
+  background: #21201e;
+}
+footer .footer-right .news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+}
+footer .footer-right .news input[type=email] {
+  background: transparent;
+  border: solid 1px #bcbcbc;
+  outline: none;
+  padding: 5px;
+  margin: 15px 0 30px;
+  width: 20%;
+}
+footer .footer-right .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-right .socials ul {
+  margin-left: 20px;
+}
+footer .footer-right .socials ul li {
+  color: #bcbcbc;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+footer .footer-right label, footer .footer-right span {
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */

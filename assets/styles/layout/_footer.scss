@@ -1,0 +1,64 @@
+footer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 200px;
+  
+  .footer-left, .footer-right {
+    padding: 80px 40px;
+  }
+  
+  .footer-left {
+    background: $color3;
+    text-align: left;
+
+    p {
+      color: $color4;
+      font-family: $font3;
+      font-weight: 500; 
+      line-height: 35px;
+    }
+  }
+
+  .footer-right {
+    background: $color5;
+
+    .news {
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+
+      input[type="email"] {
+        background: transparent;
+        border: solid 1px $color4;
+        outline: none;
+        padding: 5px;
+        margin: 15px 0 30px;
+        width: 20%;
+      }
+    }
+
+    .socials {
+      display: flex;
+      align-items: center;
+
+      ul {
+        margin-left: 20px;
+
+        li {
+          color: $color4;
+          padding: 10px;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    label, span {
+      color: $color1;
+      text-transform: uppercase;
+      font-family: $font3;
+      font-weight: 600;
+    }
+
+
+  }
+}
