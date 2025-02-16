@@ -1,0 +1,66 @@
+.section5 {
+  position: relative;
+  background: $color5;
+  padding: 180px 0 280px;
+  min-height: 850px;
+
+  .map-bg {
+    position: absolute;
+    background: url(/assets/img/gmap.jpg)center/cover;
+    width: 100%;
+    height: 440px;
+    bottom: 0;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 85vw;
+    padding: 60px 100px;
+    justify-content: space-around;
+    background: $color1;
+    text-align: center;
+
+
+    img {
+      border-radius: 50%;
+      height: 70px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 40px;
+    }
+
+    i {
+      margin: 6px;
+      font-size: 1rem;
+      transform: translateY(-10px);
+    }
+
+    .fa-solid {
+      font-weight: 900;
+    }
+
+    h5 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    span {
+      color: $color2;
+      font-size: 1rem;
+    }
+    }
+  }

@@ -20,7 +20,7 @@
   scroll-behavior: smooth;
 }
 
-h1, h2, h4, input[type=submit], label {
+h1, h2, h4, input[type=submit], label, .btn {
   text-transform: uppercase;
 }
 
@@ -420,4 +420,168 @@ header .header-content img {
   color: #eeeeee;
   line-height: 20px;
   margin-bottom: 60px;
+}
+.section4 .section4-bottom {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1190px;
+  width: 80vw;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 2, 220px;
+  gap: 20px;
+  background: url(/assets/img/event-03.jpg) center/cover;
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.section4 .section4-bottom .section4-left {
+  background: #eeeeee;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.section4 .section4-bottom .section4-left .main-left-1, .section4 .section4-bottom .section4-left .main-left-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.section4 .section4-bottom .section4-left .main-left-1 .date-left, .section4 .section4-bottom .section4-left .main-left-2 .date-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #21201e;
+  color: #eeeeee;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+.section4 .section4-bottom .section4-left .main-left-1 .date-left p, .section4 .section4-bottom .section4-left .main-left-2 .date-left p {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.section4 .section4-bottom .section4-left .main-left-1 .date-left span, .section4 .section4-bottom .section4-left .main-left-2 .date-left span {
+  font-size: 1rem;
+}
+.section4 .section4-bottom .section4-left .main-right {
+  height: 80%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.section4 .section4-bottom .section4-left .main-right h6 {
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+.section4 .section4-bottom .section4-left .main-right .main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+  color: #bcbcbc;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+.section4 .section4-bottom .section4-left .main-right .main-text i {
+  margin-right: 5px;
+}
+.section4 .section4-bottom .section4-left .main-right .main-text p {
+  margin-right: 10px;
+}
+
+.section5 {
+  position: relative;
+  background: #21201e;
+  padding: 180px 0 280px;
+  min-height: 850px;
+}
+.section5 .map-bg {
+  position: absolute;
+  background: url(/assets/img/gmap.jpg) center/cover;
+  width: 100%;
+  height: 440px;
+  bottom: 0;
+}
+.section5 .container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 380px;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 85vw;
+  padding: 60px 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #eeeeee;
+  text-align: center;
+}
+.section5 .container img {
+  border-radius: 50%;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.section5 .container p {
+  font-size: 1.3rem;
+  line-height: 40px;
+}
+.section5 .container i {
+  margin: 6px;
+  font-size: 1rem;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.section5 .container .fa-solid {
+  font-weight: 900;
+}
+.section5 .container h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.section5 .container span {
+  color: #a87345;
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
