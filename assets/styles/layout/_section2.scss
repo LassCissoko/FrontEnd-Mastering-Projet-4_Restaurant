@@ -61,6 +61,11 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
     }
 
     .menu-content {
