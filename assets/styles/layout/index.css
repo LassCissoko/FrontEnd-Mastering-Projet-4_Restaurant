@@ -195,6 +195,17 @@ header img {
   grid-template-columns: repeat(2, 50% 50%);
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .section1 .section1-left {
   background: #eeeeee;
   padding: 20px;
