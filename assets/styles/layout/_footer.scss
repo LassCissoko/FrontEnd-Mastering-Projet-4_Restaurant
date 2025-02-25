@@ -2,6 +2,10 @@ footer {
   display: grid;
   grid-template-columns: 40% 60%;
   height: 200px;
+
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 100%;
+}
   
   .footer-left, .footer-right {
     padding: 80px 40px;
@@ -10,6 +14,10 @@ footer {
   .footer-left {
     background: $color3;
     text-align: left;
+
+    @media screen and (max-width: 850px) {
+     display: none;
+  }
 
     p {
       color: $color4;
@@ -21,6 +29,8 @@ footer {
 
   .footer-right {
     background: $color5;
+
+
 
     .news {
       display: flex;

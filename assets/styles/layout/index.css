@@ -657,12 +657,22 @@ footer {
   grid-template-columns: 40% 60%;
   height: 200px;
 }
+@media screen and (max-width: 850px) {
+  footer {
+    grid-template-columns: 100%;
+  }
+}
 footer .footer-left, footer .footer-right {
   padding: 80px 40px;
 }
 footer .footer-left {
   background: #0e0e0e;
   text-align: left;
+}
+@media screen and (max-width: 850px) {
+  footer .footer-left {
+    display: none;
+  }
 }
 footer .footer-left p {
   color: #bcbcbc;
