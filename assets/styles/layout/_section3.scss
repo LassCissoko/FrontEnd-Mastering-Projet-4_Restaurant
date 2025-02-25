@@ -2,11 +2,18 @@
   background: $color5;
   text-align: center;
   padding:150px;
-
+  
   .section3-container {
     display: grid;
-    grid-template-columns: repeat(2, 30% 70%);
+    grid-template-columns: repeat(2, 40% 60%);
     margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+
+    @media screen and (max-width: 950px) {
+      display: flex;
+      flex-direction: column;
+    }
 
     h2 {
       line-height:0;
@@ -55,10 +62,18 @@
         width: 80%;
         margin: 0 auto;
         font-family: $font3;
+
         
         .selection, .text {
           column-gap: 20px;
           display: flex;
+
+          @media screen and (max-width: 850px) {
+            display: flex;
+            flex-direction: column; 
+            margin: 0 auto;
+            align-items: center;
+            }
 
           input, select, date {
             width: 50%;
@@ -82,7 +97,7 @@
           border-radius: 20px;
           letter-spacing: 3px;
           cursor: pointer;
-          margin-top: 50px;
+          margin-top: 20px;
           font-weight: bold;
           transition: 0.3s ease;
 
@@ -91,6 +106,7 @@
             color: $color3;
             border: solid 1px $color3;
             scale: (1.1);
+
           }
         }
       }

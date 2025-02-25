@@ -366,8 +366,21 @@ header img {
 }
 .section3 .section3-container {
   display: grid;
-  grid-template-columns: repeat(2, 30% 70%);
+  grid-template-columns: repeat(2, 40% 60%);
   margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+@media screen and (max-width: 950px) {
+  .section3 .section3-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .section3 .section3-container h2 {
   line-height: 0;
@@ -417,6 +430,21 @@ header img {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 850px) {
+  .section3 .section3-container .section3-right form .selection, .section3 .section3-container .section3-right form .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .section3 .section3-container .section3-right form .selection input, .section3 .section3-container .section3-right form .selection select, .section3 .section3-container .section3-right form .selection date, .section3 .section3-container .section3-right form .text input, .section3 .section3-container .section3-right form .text select, .section3 .section3-container .section3-right form .text date {
   width: 50%;
   border-bottom: solid 1px #bcbcbc;
@@ -436,7 +464,7 @@ header img {
   border-radius: 20px;
   letter-spacing: 3px;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 20px;
   font-weight: bold;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
