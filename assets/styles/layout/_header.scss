@@ -36,7 +36,7 @@ header {
     .nav-links {
       width: 70%;
 
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 910px) {
         display: none;
       }
       
@@ -93,7 +93,7 @@ header {
       font-weight: 500;
 
       @media screen and (max-width: 900px) {
-        display: none;
+        font-size: 3rem;
       }
 
     }
@@ -109,12 +109,9 @@ header {
       letter-spacing: 10px;
 
 
-      @media screen and (max-width: 500px) {
-        font-size: 1.5rem;
-      }
-
       @media screen and (max-width: 800px) {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+        margin: -25px 0;
       }
 
       }

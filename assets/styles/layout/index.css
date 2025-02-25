@@ -94,7 +94,7 @@ header nav .nav-logo h3:hover {
 header nav .nav-links {
   width: 70%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   header nav .nav-links {
     display: none;
   }
@@ -164,7 +164,7 @@ header .header-content h3 {
 }
 @media screen and (max-width: 900px) {
   header .header-content h3 {
-    display: none;
+    font-size: 3rem;
   }
 }
 header .header-content h1, header .header-content p {
@@ -176,14 +176,10 @@ header .header-content h1 {
   margin: -40px 0;
   letter-spacing: 10px;
 }
-@media screen and (max-width: 500px) {
-  header .header-content h1 {
-    font-size: 1.5rem;
-  }
-}
 @media screen and (max-width: 800px) {
   header .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    margin: -25px 0;
   }
 }
 header p {
